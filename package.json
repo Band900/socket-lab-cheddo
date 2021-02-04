@@ -1,0 +1,23 @@
+{
+  "name": "Socket-lab-cheddo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "socket.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "child_process": "^1.0.2",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "socket.io": "^3.1.1",
+    "socket.io-client": "^3.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "nodemon test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
